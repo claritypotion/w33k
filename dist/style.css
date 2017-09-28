@@ -1,0 +1,98 @@
+.w33k-app,
+.w33k-app div {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+.w33k-app div,
+.w33k-app span {
+  transition: background-color 0.45s ease;
+  user-select: none;
+}
+
+.w33k-app {
+  font: 16px Sans-serif;
+  color: #555;
+  width: 720px;
+  position: relative;
+}
+
+.w33k-meta {
+  position: absolute;
+  top: 40px;
+  left: 575px;
+  width: 150px;
+  font-size: 13px;
+}
+
+div.w33k-meta div {
+  margin-bottom: 5px;
+}
+
+.w33k-meta span {
+  border-bottom: 1px dotted #999;
+  cursor: pointer;
+  padding: 1px 3px;
+}
+
+.w33k-meta span:hover,
+.w33k-hours > div:hover,
+.w33k-days > div:hover {
+  background: #eee;
+}
+
+.w33k-app div.active{
+  background: #aaa;
+}
+
+div.w33k-timeline {
+  width: 481px;
+  margin-left: 81px;
+  overflow: hidden;
+}
+
+.w33k-timeline div {
+  float: left;
+  width: 60px;
+  font-size: 11px;
+  border-left: 1px solid #eee;
+  padding: 2px 2px 15px;
+}
+
+.w33k-app, .w33k-days, .w33k-hours {
+  overflow: hidden;
+}
+
+.w33k-days {
+  float: left;
+  border: 1px solid #eee;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.w33k-hours {
+  float: left;
+  width: 481px;
+  border: 1px solid #eee;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.w33k-days > div {
+  height: 60px;
+  width: 80px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.w33k-hours > div {
+  width: 20px;
+  height: 60px;
+  float: left;
+  border: 1px solid #eee;
+  border-top: 0;
+  border-left: 0;
+}

@@ -1,0 +1,6 @@
+export const MARK_DAY = 'MARK_DAY'
+export const UNMARK_DAY = 'UNMARK_DAY'
+export const MARK_HOUR = 'MARK_HOUR'
+export const UNMARK_HOUR = 'UNMARK_HOUR'
+export const CLEAR_ALL = 'CLEAR_ALL'
+export const LOAD_STATE = 'LOAD_STATE'
